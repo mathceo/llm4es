@@ -11,6 +11,7 @@ Large Language Models](https://arxiv.org/pdf/2508.05688v1)
 
 When making use of the provided codes in this repository for your own work please ensure you reference the publication 
 
+```
 @inproceedings{10.1145/3746252.3760828,
 author = {Shestov, Aleksei and Zoloev, Omar and Makarenko, Maksim and Orlov, Mikhail and Fadeev, Egor and Kireev, Ivan and Savchenko, Andrey},
 title = {LLM4ES: Learning User Embeddings from Event Sequences via Large Language Models},
@@ -20,7 +21,6 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3746252.3760828},
 doi = {10.1145/3746252.3760828},
-abstract = {This paper presents LLM4ES, a novel framework that exploits large pre-trained language models (LLMs) to derive user embeddings from event sequences. Event sequences are transformed into a textual representation, which is subsequently used to fine-tune an LLM through next-token prediction to generate high-quality embeddings. We introduce a text enrichment technique that enhances LLM adaptation to event sequence data, improving representation quality for low-variability domains. Experimental results demonstrate that LLM4ES achieves state-of-the-art performance in user classification tasks in financial and other domains, outperforming existing embedding methods. The resulting user embeddings can be incorporated into a wide range of applications, from user segmentation in finance to patient outcome prediction in healthcare.},
 booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
 pages = {5238–5242},
 numpages = {5},
@@ -28,6 +28,7 @@ keywords = {event sequences, llms, user embeddings},
 location = {Seoul, Republic of Korea},
 series = {CIKM '25}
 }
+```
 
 ## Overall description
 This paper presents LLM4ES, a novel framework that exploits
